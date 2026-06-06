@@ -1,0 +1,46 @@
+| Component                   | Arduino Nano Pin | Notes                               |
+| --------------------------- | ---------------- | ----------------------------------- |
+| Potentiometer               | A0               | Center pin to A0, sides to 5V & GND |
+| Gear Motor IN1/IN2          | D6 & D7          | Motor direction control             |
+| Gear Motor ENA              | D9 (PWM)         | Speed control via `analogWrite`     |
+| Stepper DIR                 | D3               | HIGH = CW, LOW = CCW                |
+| Stepper STEP                | D4               | Pulse signal                        |
+| Toggle Switch (Stepper Dir) | D2               | HIGH = CW, LOW = CCW                |
+| Limit Switch 1              | D10              | For gear motor direction flip       |
+| Limit Switch 2              | D10              | For gear motor direction flip       |
+| GND All                     | Common Ground    | All components must share GND       |
+
+
+potentiometer:
+
+| Pot Pin         | Connect To          |
+| --------------- | ------------------- |
+| Left (or Right) | **GND**             |
+| Middle (wiper)  | **A0** (Analog pin) |
+| Other side      | **5V**              |
+
+
+toggle switch:
+
+| Toggle Pin | Connect To                |
+| ---------- | ------------------------- |
+| One pin    | **GND**                   |
+| Other pin  | **Digital pin** (D2) |
+
+limit switch:
+
+| Pin     | Connect To                 |
+| ------- | -------------------------- |
+| **COM** | **GND**                    |
+| **NO**  | **Digital pin (D10)** |
+| **NC**  | Leave unconnected          |
+
+MOTOR-DRIVER:
+
+| Motor Wire | Connect To DRV8825 Pin | Pair   |
+| ---------- | ---------------------- | ------ |
+| **Red**    | **A1**                 | Coil A |
+| **Black**  | **A2**                 | Coil A |
+| **Green**  | **B1**                 | Coil B |
+| **Blue**   | **B2**                 | Coil B |
+
