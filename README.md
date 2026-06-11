@@ -8,3 +8,5 @@ this is version1 of simple idea of how can we rewind optical wire of fpv drones 
 hope this project idea and design helps you to make better versions for community 👍😊
 FEEL FREE TO LEAVE COMMENT/REVIEW FOR MORE IMPROVEMENT SUGGESTION.
 **(I ALSO DONT HAVE ANY PIC OF PROJECT IF I FOUND ONE I WILL SHARE IT)
+
+yt link : https://youtube.com/shorts/RBd6km0gHgY?si=CN4vzCNAqsDJJWgB
