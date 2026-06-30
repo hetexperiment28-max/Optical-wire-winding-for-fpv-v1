@@ -10,3 +10,14 @@ FEEL FREE TO LEAVE COMMENT/REVIEW FOR MORE IMPROVEMENT SUGGESTION.
 **(I ALSO DONT HAVE ANY PIC OF PROJECT IF I FOUND ONE I WILL SHARE IT)
 
 yt link : https://youtube.com/shorts/RBd6km0gHgY?si=CN4vzCNAqsDJJWgB
+
+
+Components used:
+
+1. stepper motor
+2. l298 motor driver
+3. bo motor
+4. lead screw (needs to cut)
+5. arduino nano
+6. limit switches (2pcs)
+7. jumper wires
